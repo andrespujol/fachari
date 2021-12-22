@@ -1,0 +1,25 @@
+.textNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.logoNosotros {
+    position: relative
+    
+}
+.logoNosotros img {
+    position: absolute;
+    top: -6.5vh;
+    left: 35vw;
+    width: 30%;
+
+}
+.imgNosotros {
+    width: 100%;
+}
+.imgNosotros img {
+    width: 100%;
+    height: 50vh;
+}

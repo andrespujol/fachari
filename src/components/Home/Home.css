@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+.home {
+    height: 60vh;
+    position: relative;
+}
+.divImg {
+    background-image: url('../../assets/imgHome.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 60vh;
+}
+.imgHome {  
+    width: 100%;
+    height: 100%;
+}
+.home h3 {
+    position: absolute;
+    top: 1rem;
+    width: 70%;
+    font-family: 'Seaweed Script', cursive;
+    color: #fff;
+    font-size: 2rem;
+}
+.custom-shape-divider-bottom-1639614221 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1639614221 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1639614221 .shape-fill {
+    fill: #A5F3E1;
+}
+
+/** For mobile devices **/
+/* @media (max-width: 767px) {
+    .custom-shape-divider-bottom-1639614221 svg {
+        width: calc(100% + 1.3px);
+        height: 64px;
+    }
+} */

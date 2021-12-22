@@ -1,0 +1,11 @@
+.card {
+    width: 90%;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+    padding-bottom: 1rem;
+}
+.imgCard {
+    width: 80%;
+    margin: 0 auto;
+}
