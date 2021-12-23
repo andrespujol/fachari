@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './Mayorista.css'
-import imgWhatsapp from '../../assets/botonesBlancos/whatsappBlanco.png'
+import imgWhatsapp from '../../assets/botonesBlancos/wa.png'
 import { MayoristaList } from './MayoristaList/MayoristaList'
 
 export const Mayorista = () => {

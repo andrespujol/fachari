@@ -1,0 +1,13 @@
+footer {
+    background-color: #A5F3E1;
+}
+.footerOrg {
+    padding-top: 1rem;
+}
+.footerOrg p {
+    font-size: 0.8rem;
+}
+.imgFooter {
+    margin: 0 0 1rem 5px;
+    width: 15%;
+}
