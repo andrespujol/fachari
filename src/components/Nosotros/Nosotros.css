@@ -10,9 +10,10 @@
     
 }
 .logoNosotros img {
+    display: none;
     position: absolute;
-    top: -6.5vh;
-    left: 35vw;
+    top: 50;
+    left: 50;
     width: 30%;
 
 }
@@ -22,4 +23,65 @@
 .imgNosotros img {
     width: 100%;
     height: 50vh;
+}
+@media only screen and (min-width: 769px) {
+    .nosotros {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 60vh;
+    }
+    .textNosotros {
+        width: 50%;
+    }
+    .logoNosotros {
+        position: absolute;
+        width: 10%;
+        height: 40vh;
+    }
+    .logoNosotros img {
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .imgNosotros{
+        width: 50%;
+    }
+    .imgNosotros img {
+        width: 100%;
+        height: 60vh;
+        object-fit: fill;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .nosotros {
+        height: 70vh;
+    }
+    .logoNosotros {
+        height: 60vh;
+    }
+    .imgNosotros img {
+        height: 70vh;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .nosotros {
+        height: 90vh;
+    }
+    .textNosotros {
+        padding: 2rem;
+    }
+    .textNosotros p{
+        font-size: 1.5rem;
+    }
+    .logoNosotros {
+        height: 80vh;
+    }
+    .imgNosotros img {
+        height: 90vh;
+    }
 }

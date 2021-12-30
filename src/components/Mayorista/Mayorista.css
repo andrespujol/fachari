@@ -8,3 +8,23 @@
 .logoWhatsappBlanco {
     width: 10%;
 }
+@media only screen and (min-width: 769px) {
+    .divCatalogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divCatalogo p{
+        font-size: 1.5rem;
+    }
+    .logoWhatsappBlanco {
+        margin-left: 1rem;
+        width: 5%;
+    }
+}
+@media only screen and (min-width: 1624px) {
+
+    .logoWhatsappBlanco {
+        width: 3%;
+    }
+}

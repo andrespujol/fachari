@@ -1,9 +1,10 @@
 import React from 'react'
 import { MayoristaProduct } from './MayoristaProduct/MayoristaProduct'
+import './MayoristaList.css'
 
 export const MayoristaList = ({products}) => {
     return (
-        <div>
+        <>
             <MayoristaProduct/>
             <div className="contenedorCards" >
                 {products.map(item=>(
@@ -12,6 +13,6 @@ export const MayoristaList = ({products}) => {
                     />
                 ))}
             </div>
-        </div>
+        </>
     )
 }

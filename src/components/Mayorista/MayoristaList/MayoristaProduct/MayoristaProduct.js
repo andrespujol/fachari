@@ -4,13 +4,13 @@ import './MayoristaProduct.css'
 
 export const MayoristaProduct = ({ pictureUrl, alt, id}) => {
     return (
-        <article className="card" >
+        <>
 
             <BrowserRouter>
                 <Link to={`MayoristaProduct/${id}`} >
             </Link>
             </BrowserRouter>
             <img  src={pictureUrl} alt={alt} className='imgCard'/>
-        </article>
+        </>
     )
 }

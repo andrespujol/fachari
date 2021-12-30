@@ -11,3 +11,23 @@
     font-weight: bold;
     margin-bottom: 0;
 }
+@media only screen and (min-width: 481px) {
+    .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .infoArticle {
+        width: 30%;
+        height: 20vh;
+    }
+    .imgInfo {
+        width: 25%;
+        height: 5vh;
+    }
+    .infoText {
+        height: 10vh;
+        
+    }
+
+}

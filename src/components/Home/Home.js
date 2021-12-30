@@ -6,8 +6,7 @@ export const Home = () => {
     return (
         <section className='home'>
             <div className='divImg'>
-
-            <h3>Deja que tu estilo hable por ti</h3>
+                <h3>Deja que tu estilo hable por ti</h3>
             </div>
             <div class="custom-shape-divider-bottom-1639614221">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

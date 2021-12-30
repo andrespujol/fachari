@@ -1,11 +1,18 @@
-.card {
+/* .card {
     width: 90%;
     margin: 0 auto;
     background: transparent;
     border: none;
     padding-bottom: 1rem;
-}
+} */
 .imgCard {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 769px) {
+    .imgCard {
+        width: 30%;
+    }
 }
