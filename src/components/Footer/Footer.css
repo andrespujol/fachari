@@ -16,3 +16,40 @@ footer {
         width: 10%;
     }
 }
+@media only screen and (min-width: 769px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footerOrg {
+        margin-left: 2rem;
+        width: 40%;
+    }
+    .footerLinks {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imgFooter {
+        margin: 0;
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    footer {
+        height: 10vh;
+    }
+    .footerOrg p{
+        text-align: left;
+    }
+    .imgFooter {
+        width: 13%;
+    }
+}
+@media only screen and (min-width: 1624px) {
+    .imgFooter {
+        width: 10%;
+    }
+}

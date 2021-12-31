@@ -5,7 +5,7 @@ import './Nosotros.css'
 
 export const Nosotros = () => {
     return (
-        <section className='nosotros'>
+        <section className='nosotros' id='nosotros'>
             <div className='textNosotros'>
                 <h2>NOSOTROS</h2>
                 <p>Somos una empresa dedicada al diseño y producción de indumentaria femenina. Nos enfocamos en crear diseños cómodos, versátiles, juveniles y actuales, con el objetivo de hacer sentir cómoda y única a la mujer. </p>

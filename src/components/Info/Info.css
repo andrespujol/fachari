@@ -31,3 +31,24 @@
     }
 
 }
+@media only screen and (min-width: 1024px) {
+    .infoArticle {
+        width: 33%;
+        height: 20vh;
+    }
+    .imgInfo {
+        width: 15%;
+        height: 5vh;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .infoArticle {
+        width: 33%;
+        height: 20vh;
+        margin-top: 3rem;
+    }
+    .imgInfo {
+        width: 12%;
+        height: 5vh;
+    }
+}

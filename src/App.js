@@ -1,4 +1,5 @@
 import './App.css';
+// import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 import { Header } from './components/Header/Header'
 import { Home } from './components/Home/Home'
@@ -11,7 +12,12 @@ import { Footer } from './components/Footer/Footer'
 function App() {
   return (
     <div className="App">
-      <Header/>
+
+        <Header/>
+          {/* <Link path="/Home" componente={ Home} exact/>
+          <Link path="/Nosotros" componente={ Nosotros} />
+          <Link path="/Mayorista" componente={Mayorista} /> */}
+
       <Home/>
       <Mayorista/>
       <Nosotros/>

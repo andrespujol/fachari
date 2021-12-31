@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.menuLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+h1 {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #079F7C;
+}
+.logo {
+    background: #079F7C;
+    border-radius: 50%;
+    width: 20%;
+}
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuLinks {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.menuRedes {
+    display: none !important;
+}
+
+@media only screen and (min-width: 769px) {
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    h1{
+        display: block;
+        width: 20%;
+        margin-right: 10%;
+        margin-bottom: 0 !important;
+    }
+    .divLogo{
+        width: 10%;
+    }
+    .menuLogo {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu{
+        width: 30%;
+    }
+    .menuLinks {
+        padding: 0 !important;
+    }
+    .menuRedes {
+        display: flex !important;
+        justify-content: flex-end ;
+        align-items: center;
+        width: 30%;
+    }
+    .menuRedesLogo {
+        padding: 0 !important;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    h1 {
+        margin-right: 20%;
+    }
+    .menuRedes {
+        width: 35%;
+    }
+    .menuRedesLogo {
+        padding: 5px !important;
+    }
+}
+@media only screen and (min-width: 1624px) {
+    .logo {
+
+        width: 70%;
+    }
+    .logo img {
+        width: 100%;
+    }
+}

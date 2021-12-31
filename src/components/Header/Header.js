@@ -1,30 +1,100 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import './Header.css'
+// import * as Scroll from 'react-scroll';
+// import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+// import { Link } from 'react-router-dom';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import fb from '../../assets/botonesVerdes/fb.png'
+import ig from '../../assets/botonesVerdes/ig.png'
+import yt from '../../assets/botonesVerdes/yt.png'
+import wa from '../../assets/botonesVerdes/wa.png'
+import tt from '../../assets/botonesVerdes/tt.png'
+import logo from '../../assets/Isotipo.png'
 
 
 export const Header = () => {
+
+
     return (
+        <>
         <header>
-            <Navbar bg="white" expand="lg">
+            <div className='divLogo'>
+                <Nav defaultActiveKey="/" as="ul" className="menuLogo"> 
+                    <Nav.Item as="li" className='logo'>
+                        <Nav.Link href="/"><img src={logo} alt={logo} /></Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            </div>
+
+        <h1>FACHARI</h1>
+        <Nav defaultActiveKey="/" as="ul" className="menu"> 
+            <Nav.Item as="li">
+                <Nav.Link href="#nosotros" className="menuLinks">NOSOTROS</Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <Nav.Link href="#mayorista" className="menuLinks">MAYORISTA</Nav.Link>
+            </Nav.Item>
+        </Nav>
+        <Nav defaultActiveKey="#" as="ul" className="menuRedes">
+            <Nav.Item as="li">
+                <Nav.Link href="#" className="menuRedesLogo"><img src={fb} alt={fb} /></Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <Nav.Link eventKey="link-1" className="menuRedesLogo"><img src={ig} alt={ig} /></Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <Nav.Link eventKey="link-2" className="menuRedesLogo"><img src={yt} alt={yt} /></Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <Nav.Link eventKey="link-2" className="menuRedesLogo"><img src={wa} alt={wa} /></Nav.Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <Nav.Link eventKey="link-2" className="menuRedesLogo"><img src={tt} alt={tt} /></Nav.Link>
+            </Nav.Item>
+        </Nav>
+            {/* <Navbar bg="white" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">Fachari</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                    </NavDropdown>
+                    <Nav.Link to={'/Nosotros'}>NOSOTROS</Nav.Link>
+                    <Nav.Link to={'/Mayorista'}>MAYORISTA</Nav.Link>
+                </Nav>
+                <Nav className="me-auto">
+                    <Nav.Link href="#home"><img src={fb} alt={fb} /></Nav.Link>
+                    <Nav.Link href="#home"><img src={ig} alt={ig} /></Nav.Link>
+                    <Nav.Link href="#home"><img src={yt} alt={yt} /></Nav.Link>
+                    <Nav.Link href="#home"><img src={wa} alt={wa} /></Nav.Link>
+                    <Nav.Link href="#home"><img src={tt} alt={tt} /></Nav.Link>
+
                 </Nav>
                 </Navbar.Collapse>
             </Container>
-            </Navbar>
+            </Navbar> */}
+            {/* <div className="titulo">
+                <div className="logo">
+                    <img src={logo} alt={logo} />
+                </div>
+                <h1>FACHARI</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><Link to="/Nosotros">NOSOTROS</Link></li>
+                    <li><Link to="/Mayorista">MAYORISTAS</Link></li>
+
+                </ul>
+            </nav>
+            <div>
+                <img src={fb} alt={fb} className='imgHeader'/>
+                <img src={ig} alt={ig} className='imgHeader'/>
+                <img src={yt} alt={yt} className='imgHeader'/>
+                <img src={wa} alt={wa} className='imgHeader'/>
+                <img src={tt} alt={tt} className='imgHeader'/>
+            </div> */}
         </header>
+        </>
     )
 }

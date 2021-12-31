@@ -19,7 +19,7 @@ export const Mayorista = () => {
         },1000)
     }, [])
     return (
-        <section className='sectionMayorista'>
+        <section className='sectionMayorista' id='mayorista'>
             <MayoristaList  products={products}/>
             <div className='divCatalogo'>
             <p>CONTÁCTANOS PARA RECIBIR NUESTRO CATÁLOGO </p>
