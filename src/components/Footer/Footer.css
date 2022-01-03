@@ -11,10 +11,28 @@ footer {
     margin: 0 0 1rem 5px;
     width: 15%;
 }
+.menuRedesFooter {
+    display: flex !important;
+    justify-content: flex-end ;
+    align-items: center;
+    width: 100%;
+}
+.menuRedesLogoFooter {
+    padding: 0 !important;
+    margin: 5px;
+}
+.menuRedesLogoFooter img {
+    padding: 0 !important;
+    width: 70% !important;
+}
 @media only screen and (min-width: 481px) {
     .imgFooter {
         width: 10%;
     }
+    .menuRedesFooter {
+        justify-content: center ;
+    }
+    
 }
 @media only screen and (min-width: 769px) {
     footer {
@@ -24,7 +42,7 @@ footer {
     }
     .footerOrg {
         margin-left: 2rem;
-        width: 40%;
+        width: 60%;
     }
     .footerLinks {
         width: 30%;
@@ -36,6 +54,12 @@ footer {
         margin: 0;
         width: 15%;
     }
+    .menuRedesFooter {
+        justify-content: flex-end ;
+    }
+    .menuRedesLogoFooter img {
+        width: 70% !important;
+    }
 }
 @media only screen and (min-width: 1024px) {
     footer {
@@ -46,6 +70,12 @@ footer {
     }
     .imgFooter {
         width: 13%;
+    }
+    .menuRedes {
+        width: 35%;
+    }
+    .menuRedesLogo {
+        padding: 5px !important;
     }
 }
 @media only screen and (min-width: 1624px) {

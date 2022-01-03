@@ -1,7 +1,10 @@
 import React, {useState, useEffect} from 'react'
+import {  Nav } from 'react-bootstrap';
+
 import './Mayorista.css'
-import imgWhatsapp from '../../assets/botonesBlancos/wa.png'
+// import imgWhatsapp from '../../assets/botonesBlancos/wa.png'
 import { MayoristaList } from './MayoristaList/MayoristaList'
+import wa from '../../assets/botonesBlancos/wa.png'
 
 export const Mayorista = () => {
     const [products, setProducts] = useState([])
@@ -23,7 +26,8 @@ export const Mayorista = () => {
             <MayoristaList  products={products}/>
             <div className='divCatalogo'>
             <p>CONTÁCTANOS PARA RECIBIR NUESTRO CATÁLOGO </p>
-            <img src={imgWhatsapp} alt="Logo whatsapp" className='logoWhatsappBlanco' />
+            <Nav.Link href="https://wa.me/51927866910" target="_blank" rel="noopener noreferrer" className="whatsappMayorista"><img src={wa} alt={wa} /></Nav.Link>
+            {/* <img src={imgWhatsapp} alt="Logo whatsapp" className='logoWhatsappBlanco' /> */}
             </div>
         </section>
     )

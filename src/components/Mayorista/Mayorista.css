@@ -8,6 +8,15 @@
 .logoWhatsappBlanco {
     width: 10%;
 }
+.whatsappMayorista img {
+    width: 15% !important;
+}
+@media only screen and (min-width: 481px) {
+
+    .whatsappMayorista img {
+        width: 10% !important;
+    }
+}
 @media only screen and (min-width: 769px) {
     .divCatalogo {
         display: flex;
@@ -20,6 +29,9 @@
     .logoWhatsappBlanco {
         margin-left: 1rem;
         width: 5%;
+    }
+    .whatsappMayorista img {
+        width: 60% !important;
     }
 }
 @media only screen and (min-width: 1624px) {

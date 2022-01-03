@@ -74,7 +74,7 @@ h1 {
         width: 30%;
     }
     .menuRedesLogo {
-        padding: 0 !important;
+        padding: 5px !important;
     }
 }
 @media only screen and (min-width: 1024px) {

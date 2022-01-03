@@ -6,22 +6,21 @@
     width: 90%;
 } */
 
-@media only screen and (min-width: 769px) {
-    .carousel-item {
-        height: 70vh;
-    }
-    .carousel-item img {
-        height: 100%;
-        object-fit: fill;
-    }
-}
+
 @media only screen and (min-width: 769px) {
     .carousel {
         width: 80% !important;
         margin: 0 auto;
     }
-    .carousel-item {
+    /* .carousel-item {
         height: 90vh;
+    }
+    .carousel-item img {
+        height: 100%;
+        object-fit: fill;
+    } */
+    .carousel-item {
+        height: 60vh;
     }
     .carousel-item img {
         height: 100%;

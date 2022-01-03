@@ -5,10 +5,10 @@ import './Header.css'
 // import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // import { Link } from 'react-router-dom';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import {  Nav } from 'react-bootstrap';
 import fb from '../../assets/botonesVerdes/fb.png'
 import ig from '../../assets/botonesVerdes/ig.png'
-import yt from '../../assets/botonesVerdes/yt.png'
+// import yt from '../../assets/botonesVerdes/yt.png'
 import wa from '../../assets/botonesVerdes/wa.png'
 import tt from '../../assets/botonesVerdes/tt.png'
 import logo from '../../assets/Isotipo.png'
@@ -39,19 +39,19 @@ export const Header = () => {
         </Nav>
         <Nav defaultActiveKey="#" as="ul" className="menuRedes">
             <Nav.Item as="li">
-                <Nav.Link href="#" className="menuRedesLogo"><img src={fb} alt={fb} /></Nav.Link>
+                <Nav.Link href="https://www.facebook.com/fachariperu" target="_blank" rel="noopener noreferrer" className="menuRedesLogo" ><img src={fb} alt={fb} /></Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-                <Nav.Link eventKey="link-1" className="menuRedesLogo"><img src={ig} alt={ig} /></Nav.Link>
+                <Nav.Link href="https://www.instagram.com/fachariperu" target="_blank" rel="noopener noreferrer" className="menuRedesLogo"><img src={ig} alt={ig} /></Nav.Link>
             </Nav.Item>
-            <Nav.Item as="li">
+            {/* <Nav.Item as="li">
                 <Nav.Link eventKey="link-2" className="menuRedesLogo"><img src={yt} alt={yt} /></Nav.Link>
+            </Nav.Item> */}
+            <Nav.Item as="li">
+                <Nav.Link href="https://wa.me/51927866910" target="_blank" rel="noopener noreferrer" className="menuRedesLogo"><img src={wa} alt={wa} /></Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-                <Nav.Link eventKey="link-2" className="menuRedesLogo"><img src={wa} alt={wa} /></Nav.Link>
-            </Nav.Item>
-            <Nav.Item as="li">
-                <Nav.Link eventKey="link-2" className="menuRedesLogo"><img src={tt} alt={tt} /></Nav.Link>
+                <Nav.Link href="https://www.tiktok.com/@fachariperu" target="_blank" rel="noopener noreferrer" className="menuRedesLogo"><img src={tt} alt={tt} /></Nav.Link>
             </Nav.Item>
         </Nav>
             {/* <Navbar bg="white" expand="lg">
