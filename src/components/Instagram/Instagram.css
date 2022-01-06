@@ -37,5 +37,11 @@
     .carousel {
         width: 50% !important;
     }
-
+    .carousel-item {
+        height: 90vh;
+    }
+    .carousel-item img {
+        height: 90vh;
+        object-fit: fill;
+    }
 }

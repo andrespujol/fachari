@@ -21,31 +21,31 @@ export const Instagram = () => {
                     // altText: 'Slide 1',
                     // caption: 'Slide 1',
                     key: 1,
-                    src: "https://files.fm/thumb_show.php?i=hxz9g9e58",
+                    src: "http://imgfz.com/i/1cSAQBh.png",
                     },
                     {
                     // altText: 'Slide 2',
                     // caption: 'Slide 2',
                     key: 2,
-                    src: "https://files.fm/thumb_show.php?i=3wahtxhbv"
+                    src: "http://imgfz.com/i/Vsv2LT4.png"
                     },
                     {
                     // altText: 'Slide 3',
                     // caption: 'Slide 3',
                     key: 3,
-                    src: "https://files.fm/thumb_show.php?i=un3bkrafa"
+                    src: "http://imgfz.com/i/ct5MJp8.png"
                     },
                     {
                         // altText: 'Slide 4',
                         // caption: 'Slide 4',
                         key: 4,
-                        src: "https://files.fm/thumb_show.php?i=gcmdvx8r8"
+                        src: "http://imgfz.com/i/u9F8Rb1.png"
                     },
                     {
                         // altText: 'Slide 5',
                         // caption: 'Slide 5',
                         key: 5,
-                        src: "https://files.fm/thumb_show.php?i=sjhfx5ftw"
+                        src: "http://imgfz.com/i/zUovgjZ.png"
                     }
                 ]}
             />
