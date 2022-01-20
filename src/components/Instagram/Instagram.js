@@ -1,5 +1,13 @@
 import React from 'react'
 // import { InstagramList } from './InstagramList/InstagramList'
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, {
+    Pagination,Navigation
+  } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { UncontrolledCarousel } from 'reactstrap'
 import './Instagram.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,13 +15,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 export const Instagram = () => {
+    SwiperCore.use([Pagination,Navigation]);
 
 
 
 
     return (
-        <section>
+<>
             <h2 className='instagramTitle'> Seguinos en instagram </h2>
             <UncontrolledCarousel className='carrusel'
                 items={[
@@ -49,6 +59,30 @@ export const Instagram = () => {
                     }
                 ]}
             />
-        </section>
+
+
+            <Swiper slidesPerView={3} spaceBetween={30} slidesPerGroup={3} loop={true} loopFillGroupWithBlank={true} pagination={{
+        "clickable": true }} navigation={true} className="mySwiper">
+            <SwiperSlide>
+                <img src="http://imgfz.com/i/1cSAQBh.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="http://imgfz.com/i/Vsv2LT4.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="http://imgfz.com/i/ct5MJp8.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="http://imgfz.com/i/u9F8Rb1.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="http://imgfz.com/i/zUovgjZ.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src="http://imgfz.com/i/1cSAQBh.png" alt="" />
+            </SwiperSlide>
+        </Swiper>
+    </>
+
     );
 }

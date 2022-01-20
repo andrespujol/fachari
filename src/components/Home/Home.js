@@ -1,10 +1,15 @@
 import React from 'react'
-
+import selloFachari from '../../assets/Isotipo.png'
+import selloHome from '../../assets/selloHome.png'
 import './Home.css'
 
 export const Home = () => {
     return (
         <section className='home'>
+            <div className='logoHome'>
+                <img src={selloFachari} className="selloFachari" alt="divisor sección" />
+                <img src={selloHome} className="selloHome" alt="divisor sección" />
+            </div>
             <div className='divImg'>
                 <h3>Deja que tu estilo hable por ti</h3>
             </div>
